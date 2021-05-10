@@ -4,6 +4,7 @@
     :title="$t('sendTx.send-tx')"
     :has-elevation="true"
     :has-indicator="true"
+    :remove-title-paddings="true"
   >
     <template #moduleBody>
       <div class="full-width px-lg-3 pb-6">
@@ -21,7 +22,6 @@
               ref="mewSelect"
               :items="tokens"
               :label="$t('sendTx.type')"
-              class="mr-3"
               @input="setCurrency"
             />
           </v-col>
