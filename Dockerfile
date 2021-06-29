@@ -1,4 +1,4 @@
-FROM node:dubnium
+FROM node:12.22.1-buster
 
 ENV HOME /home
 ENV NODE_OPTIONS --max-old-space-size=6144
