@@ -1,4 +1,4 @@
-FROM node:current-stretch
+FROM node:current-slim
 
 ENV HOME /home
 ENV NODE_OPTIONS --max-old-space-size=6144
